@@ -2,22 +2,22 @@ export default class Deck {
     /** Create instance of unshiffled deck **/
     constructor() {
         this.template = [
-            {symbol: 'fa-diamond', faceup: false, matched: false},
-            {symbol: 'fa-diamond', faceup: false, matched: false},
-            {symbol: 'fa-paper-plane-o', faceup: false, matched: false},
-            {symbol: 'fa-paper-plane-o', faceup: false, matched: false},
-            {symbol: 'fa-anchor', faceup: false, matched: false},
-            {symbol: 'fa-anchor', faceup: false, matched: false},
-            {symbol: 'fa-bolt', faceup: false, matched: false},
-            {symbol: 'fa-bolt', faceup: false, matched: false},
-            {symbol: 'fa-cube', faceup: false, matched: false},
-            {symbol: 'fa-cube', faceup: false, matched: false},
-            {symbol: 'fa-leaf', faceup: false, matched: false},
-            {symbol: 'fa-leaf', faceup: false, matched: false},
-            {symbol: 'fa-bicycle', faceup: false, matched: false},
-            {symbol: 'fa-bicycle', faceup: false, matched: false},
-            {symbol: 'fa-bomb', faceup: false, matched: false},
-            {symbol: 'fa-bomb', faceup: false, matched: false},
+            {symbol: 'fa-amazon', faceup: false, matched: false},
+            {symbol: 'fa-amazon', faceup: false, matched: false},
+            {symbol: 'fa-app-store', faceup: false, matched: false},
+            {symbol: 'fa-app-store', faceup: false, matched: false},
+            {symbol: 'fa-apple', faceup: false, matched: false},
+            {symbol: 'fa-apple', faceup: false, matched: false},
+            {symbol: 'fa-bluetooth-b', faceup: false, matched: false},
+            {symbol: 'fa-bluetooth-b', faceup: false, matched: false},
+            {symbol: 'fa-chrome', faceup: false, matched: false},
+            {symbol: 'fa-chrome', faceup: false, matched: false},
+            {symbol: 'fa-centos', faceup: false, matched: false},
+            {symbol: 'fa-centos', faceup: false, matched: false},
+            {symbol: 'fa-canadian-maple-leaf', faceup: false, matched: false},
+            {symbol: 'fa-canadian-maple-leaf', faceup: false, matched: false},
+            {symbol: 'fa-btc', faceup: false, matched: false},
+            {symbol: 'fa-btc', faceup: false, matched: false},
         ];
     }
 

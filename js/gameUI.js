@@ -15,7 +15,7 @@ export default class GameUI {
             liElement.setAttribute('class', 'card');
 
             const icon = document.createElement('span');
-            icon.setAttribute('class', `fa ${card.symbol}`);
+            icon.setAttribute('class', `fab ${card.symbol}`);
             liElement.appendChild(icon);
 
             deckFragment.appendChild(liElement);
@@ -37,5 +37,10 @@ export default class GameUI {
     isFaceUp(selectedCardIndex){
         const card = document.getElementById(selectedCardIndex);
         return card.getAttribute('class').match('open');
+    }
+
+    updateMoves(count){
+        const moves = document.querySelector('.moves');
+        moves.textContent = count;
     }
 }
